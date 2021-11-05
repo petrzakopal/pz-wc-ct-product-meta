@@ -1,0 +1,28 @@
+.before-add-to-cart-data-input
+    {
+        display:flex;
+        flex-direction:row;
+    }
+        .label-for-data-input
+        {
+            padding-right: 5px;
+        }
+    td
+    {
+        border-bottom:none;
+        padding: 0px!important;
+    }
+    input,.widget select, .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper, form input:read-write, form select, form select option, form textarea, form.wp-block-search input.wp-block-search__input
+    {
+        background-color: #e7e7e7!important;
+        border-style: solid;
+        border-width: 0px!important;
+        border-left-width: 4px!important;
+        border-color: var(--nv-primary-accent)!important;
+        border-radius: 0px!important;
+
+    }
+    [tabindex="-1"]:focus, [tabindex="-1"]:focus-visible, input:read-write:focus, input:read-write:focus-visible, select:focus, select:focus-visible, textarea:focus, textarea:focus-visible
+    {
+        box-shadow:0 0 0 0 !important;
+    }
